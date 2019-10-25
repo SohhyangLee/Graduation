@@ -1,0 +1,26 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class coinMove : MonoBehaviour {
+	private float speed = 10;
+	// Use this for initialization
+	void Start () {
+		Vector2 scale = transform.localScale;
+		scale.x = -Mathf.Abs (scale.x);
+		transform.localScale = scale;
+	}
+	//GameObject coin = Instantiate(Resources.Load<GameObject>("coin"));
+	//coin.transform.position = transform.position;
+	// Update is called once per frame
+	void Update () {
+		//transform.Translate (Vector2 () * speed * Time.deltaTime);
+
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+		if (col.gameObject.tag == "enemy") {
+			//DamagedState ();
+		}
+	}
+}

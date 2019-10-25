@@ -1,0 +1,9 @@
+﻿{
+"Name":"YUKI",
+"Level":17,
+"Atk":199,
+"maxHP":300,
+"nowHP":200,
+"maxREP":500,
+"nowREP":170
+}

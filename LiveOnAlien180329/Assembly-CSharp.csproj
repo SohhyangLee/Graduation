@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0407E55A-8354-0F8D-D49E-CC49FA9AD747}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Resources\Script\BedTextAn.cs" />
+     <Compile Include="Assets\Resources\Script\CameraCtrl.cs" />
+     <Compile Include="Assets\Resources\Script\ChangeBackground2.cs" />
+     <Compile Include="Assets\Resources\Script\CharacterAnimation.cs" />
+     <Compile Include="Assets\Resources\Script\CharacterAttribute.cs" />
+     <Compile Include="Assets\Resources\Script\CharacterMove.cs" />
+     <Compile Include="Assets\Resources\Script\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Resources\Script\Inventory.cs" />
+     <Compile Include="Assets\Resources\Script\Item.cs" />
+     <Compile Include="Assets\Resources\Script\ItemDatabase.cs" />
+     <Compile Include="Assets\Resources\Script\MyFood.cs" />
+     <Compile Include="Assets\Resources\Script\PlayerControl.cs" />
+     <Compile Include="Assets\Resources\Script\Recipe.cs" />
+     <Compile Include="Assets\Resources\Script\Slot.cs" />
+     <Compile Include="Assets\Resources\Script\Textmanager.cs" />
+     <Compile Include="Assets\Resources\Script\ToiletTextAn.cs" />
+     <Compile Include="Assets\Resources\Script\TouchTest.cs" />
+     <Compile Include="Assets\Resources\Script\Tutorial.cs" />
+     <Compile Include="Assets\Resources\Script\UIdate.cs" />
+     <Compile Include="Assets\Resources\Script\UIhp.cs" />
+     <Compile Include="Assets\Resources\Script\changeBackground.cs" />
+     <Compile Include="Assets\Resources\Script\changeImage.cs" />
+     <Compile Include="Assets\Resources\Script\changeImageTest.cs" />
+     <Compile Include="Assets\Resources\Script\cookingButton.cs" />
+     <Compile Include="Assets\Resources\Script\countdownText.cs" />
+     <Compile Include="Assets\Resources\Script\exitButton.cs" />
+     <Compile Include="Assets\Resources\Script\gotomap.cs" />
+     <Compile Include="Assets\Resources\Script\invenButton.cs" />
+     <Compile Include="Assets\Resources\Script\keepgoing.cs" />
+     <Compile Include="Assets\Resources\Script\maingameTest1.cs" />
+     <Compile Include="Assets\Resources\Script\maingameTest2.cs" />
+     <Compile Include="Assets\Resources\Script\moveChar.cs" />
+     <Compile Include="Assets\Resources\Script\pingpong.cs" />
+     <Compile Include="Assets\Resources\Script\playerMgr.cs" />
+     <Compile Include="Assets\Resources\Script\respawn.cs" />
+     <Compile Include="Assets\Resources\Script\scenetrans.cs" />
+     <Compile Include="Assets\Resources\Script\settingButton.cs" />
+     <Compile Include="Assets\Resources\Script\showCooking.cs" />
+     <Compile Include="Assets\Resources\Script\specialImage.cs" />
+     <Compile Include="Assets\Resources\Script\textBlink.cs" />
+     <Compile Include="Assets\Resources\Script\totalMyScore.cs" />
+     <Compile Include="Assets\Resources\Script\touchOven.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\DependencySorting.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\HeuristicSorting.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\IsoSorting.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\IsoTransform.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\SortingStrategy.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Core\TileSorting.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Examples\GenericGridMap.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Examples\LevelGenerator.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Examples\SmoothCamera2d.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Examples\TouchController.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\External\EasingFunctions.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\External\ExposePropertyAttribute.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\External\LinqExtensions.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\External\PinchZoom.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\IsoController\AdvancedIsoObjectController.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\IsoController\SimpleIsoObjectController.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Pathfinding\Astar.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Pathfinding\AstarAgent.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Pathfinding\GridGraph.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Pathfinding\INode.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Test\AstarTestScript.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Test\OnMouseTestScript.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Test\RaycastTest.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Test\SuperAwesomePhysicsScript.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\EventProcessor.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\GizmosExtension.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\Isometric.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\MethodExtensionForMonoBehaviourTransform.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\ProcedualMeshes.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\Utils\Singleton.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\Ghost.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\GhostReference.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoBoxCollider.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoCapsuleCollider.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoCollider.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoCollision.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoMeshCollider.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoPhysics.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoRaycastHit.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoRigidbody.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\Scripts\physics\IsoSphereCollider.cs" />
+     <Compile Include="Assets\VoxelWorld\VoxelWorld - Effects (Free)\Scripts\Mover.cs" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\alienGreen.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\alienBlue.xml" />
+     <None Include="Assets\Resources\Json\enemy.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\enemies.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Platformer\abstractTiles_sheet.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\alienBeige.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Platformer\platformerTiles_sheet.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\License.txt" />
+     <None Include="Assets\Resources\Json\Json.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\alienPink.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Platformer\voxelTiles_sheet.xml" />
+     <None Include="Assets\Resources\Json\recipe.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\kenney-backgroundelements\Spritesheet\bgElements_spritesheet.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\aliens.xml" />
+     <None Include="Assets\Resources\Text\tutorial.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Misc\moreenemiesanimations\Spritesheets\alienYellow.xml" />
+     <None Include="Assets\UltimateIsometricToolkit\CHANGELOG.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\README.txt" />
+     <None Include="Assets\UltimateIsometricToolkit\Graphics\Platformer\allTiles_sheet.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="litjson">
+ <HintPath>C:/Users/G11/Desktop/LiveOnAlien1803291650/Assets/Plugins/litjson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

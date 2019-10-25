@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class itemDrop : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+	IEnumerator dropItems() {
+		int maxitems = 3;
+		yield return new WaitForSeconds (0.3f);
+		for (int i = 0; i < maxitems; i++) {
+			int rand = Random.Range (0, 3);
+			//Instantiate (dropItems [rand], transform.position, Quaternion.identity);
+		}
+	}
+}
+
+
