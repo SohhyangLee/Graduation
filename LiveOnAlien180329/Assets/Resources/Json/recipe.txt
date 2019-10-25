@@ -1,0 +1,46 @@
+{
+	"Dish":[
+		{
+			"id": 0,
+			"name": "Golden Bread"
+			},
+		{
+			"id": 1,
+			"name": "CherryBlossom Tarte"
+			},
+		{
+			"id": 2,
+			"name": "Apple Pie"
+			}
+		],
+	"Ingredient":[
+		{
+			"id": 0,
+			"name": "Sulfur"
+			},
+		{
+			"id": 1,
+			"name": "Gold"
+			},
+		{
+			"id": 2,
+			"name": "Bread"
+			},
+		{
+			"id": 3,
+			"name": "CherryBlossom"
+			},
+		{
+			"id": 4,
+			"name": "Tarte"
+			},
+		{
+			"id": 5,
+			"name": "Apple",
+			},
+		{
+			"id": 6,
+			"name": "Pi"
+			}
+		]
+}

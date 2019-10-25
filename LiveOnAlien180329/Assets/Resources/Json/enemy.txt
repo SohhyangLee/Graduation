@@ -1,0 +1,6 @@
+{
+"id": 0,
+"name": "slime",
+"enemyhp":140,
+"enemymaxhp":200
+}
