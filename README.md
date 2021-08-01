@@ -1,5 +1,4 @@
-# Graduation Project
-# 살아남아라 외계인!
+# Graduation Project - 살아남아라 외계인!
 - 요리 접목 RPG 게임
 
 ## 시연영상
